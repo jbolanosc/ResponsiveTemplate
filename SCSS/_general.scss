@@ -1,0 +1,46 @@
+@mixin textStyle($size, $weight, $font, $color) {
+  font-family: $font;
+  font-size: $size;
+  font-weight: $weight;
+  color: $color !important;
+}
+
+.a-none:hover{
+  text-decoration: none;
+  color: $spacePink;
+}
+
+.heading-underline {
+  width: 3rem;
+  height: 0.2rem;
+  background-color: $spacePink;
+  margin: 1em auto;
+}
+
+.space-text {
+  color: $spaceLightBlue !important;
+}
+
+.space-pink{
+  color: $spacePink;
+}
+
+.bg-darkest{
+  background-color: #000;
+}
+
+.bg-gray {
+  background-color: $spaceGray !important;
+}
+
+.outline {
+  color: $spaceLightBlue !important;
+  font-family: $font;
+  border: 1px solid $spacePink !important;
+  border-radius: 0;
+}
+
+.nav-outline {
+  border: 1px solid $spacePink;
+}
+

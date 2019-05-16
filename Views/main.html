@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../CSS/base.css" />
+    <link rel="shortcut icon" type="image/png" href="../Assets/icons/ufo.png" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+      integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body data-spy="scroll" data-target="#navbarResponsive">
+    <div class="landing-section">
+      <!-- Header -->
+      <div class="space-text">
+        <nav
+          class="navbar navbar-expand-lg navbar-dark bg-transparent fixed-top"
+        >
+          <a class="navbar-brand space-text" href="#"
+            ><span><i class="fas fa-meteor fa-3x"></i></span
+          ></a>
+          <button
+            class="navbar-toggler space-text"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarResponsive"
+          >
+            <span class=" space-text"><i class="fas fa-bars"></i></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#articles">Articles</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link nav-outline" href="#subscribe"
+                  >Subscribe</a
+                >
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+
+      <!-- Landing Page -->
+      <div class="landing"></div>
+
+      <div class="caption text-center space-text">
+        <h1>LOMBOK</h1>
+        <h3>HOLISTIC HEALTH</h3>
+        <div class="heading-underline"></div>
+      </div>
+    </div>
+
+    <!-- Latest Articles Section -->
+
+    <div class="jumbotron bg-gray" id="articles">
+      <div class="narrow">
+        <div class="col-md-12 text-center">
+          <h1 class="heading">Articles</h1>
+          <div class="heading-underline"></div>
+        </div>
+
+        <div class="row text-center">
+          <div class="col-md-4">
+            <div class="card">
+              <img
+                class="card-img-top"
+                src="../Assets/niketh-vellanki-252581-unsplash.jpg"
+                alt="Card image cap"
+              />
+              <div class="card-body">
+                <div class="heading-underline"></div>
+                <h5 class="card-title">Space travel</h5>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, reiciendis.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card">
+              <img
+                class="card-img-top"
+                src="../Assets/bryan-goff-360297-unsplash.jpg"
+                alt="Card image cap"
+              />
+              <div class="card-body">
+                <div class="heading-underline"></div>
+                <h5 class="card-title">Nebula</h5>
+                <p class="card-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, reiciendis.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card">
+              <img
+                class="card-img-top"
+                src="../Assets/josh-gordon-1475787-unsplash.jpg"
+                alt="Card image cap"
+              />
+              <div class="card-body">
+                <div class="heading-underline"></div>
+                <h5 class="card-title">Galaxy</h5>
+                <p class="card-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, reiciendis.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- About Section -->
+    <section class="container-fluid" id="m-auto">
+      <div class="row">
+        <div class="col-md-6">
+          <img
+            class="about-img"
+            src="../Assets/nasa-89125-unsplash.jpg"
+          />
+        </div>
+        <div class="col-md-6 text-center my-auto mx-about">
+          <h1 class="heading">About</h1>
+          <div class="heading-underline"></div>
+          <p class="text-justify">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            Consequuntur commodi odio enim repellat hic fugiat unde. Hic illo
+            expedita doloribus pariatur corporis ipsam. Labore magni at
+            cupiditate mollitia, maiores dicta fugiat rem cum sed delectus
+            quibusdam modi! Tempora libero, suscipit quidem mollitia quae rerum
+            recusandae placeat, eius natus deserunt maxime.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Subscribe section -->
+
+    <div class="container-fluid subscribe-section bg-gray" id="subscribe">
+      <div class="row">
+        <div class="col-md-6 text-center m-auto">
+          <h1 class="heading my-2">Subscribe</h1>
+          <h3 class="text-2 my-2">Sign-up for the news letter!</h3>
+          <input
+            type="text"
+            class="form-control my-2 py-3"
+            aria-label="Small"
+            aria-describedby="inputGroup-sizing-sm"
+            placeholder="Type your email right here"
+          />
+          <button
+            type="button"
+            class="btn btn-outline-secondary outline  my-2 px-5"
+          >
+            Submit
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer  -->
+    <footer class="bg-darkest">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 m-auto text-center ">
+            <a href="#"><i class="fab fa-facebook fa-2x space-text"></i></a>
+            <a href="#"><i class="fab fa-twitter fa-2x space-text"></i></a>
+            <a href="#"><i class="fab fa-google-plus fa-2x space-text"></i></a>
+            <a href="#"><i class="fab fa-skype fa-2x space-text"></i></a>
+          </div>
+          <div class="col-md-4">
+
+          </div>
+          <div class="col-md-4 text-center">
+            <div class="row">
+              <div class="col-sm-3 my-auto px-0">
+                <a class="space-text a-none" href="about">About</a>
+              </div>
+              <div class="col-sm-3 my-auto px-0">
+                <a class="space-text a-none" href="articles">Articles</a>
+              </div>
+              <div class="col-sm-3 my-auto px-0">
+                <a class="nav-outline space-text a-none p-2" href="subscribe">Subscribe</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+    <script src="../JS/index.js"></script>
+  </body>
+</html>

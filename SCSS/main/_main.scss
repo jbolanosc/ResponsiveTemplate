@@ -1,0 +1,185 @@
+body {
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+.jumbotron {
+  margin: 0 !important;
+}
+
+.container-fluid {
+  height: 100vh;
+  padding: 0 !important;
+}
+
+
+.row {
+  height: 100%;
+  width: 100%;
+  margin: 0 !important;
+}
+
+.col-md-6 {
+  padding: 0 !important;
+}
+/*-- Navbar */
+
+.navbar {
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.nav-link{
+  @include textStyle(1em, 800, $font, $spaceLightBlue);
+}
+
+.bg-transparent.scrolled {
+  background-color: #000 !important;
+  transition: background-color 600ms linear;
+  opacity: 0.8;
+}
+
+/*-- landing Section */
+
+.landing {
+  background: url("../../Assets/vincentiu-solomon-4602-unsplash.jpg");
+  background-size: cover;
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  z-index: -1;
+}
+
+.caption {
+  width: 100%;
+  max-width: 100%;
+  position: absolute;
+  top: 38%;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.caption h1 {
+  @include textStyle(12em, 800, $font, $spaceLightBlue);
+}
+
+.caption h3 {
+  @include textStyle(2.5em, 500, $font, $spaceLightBlue);
+}
+
+/*-- Latest Articles Section */
+
+.articles-section {
+  width: 100%;
+  height: 100vh;
+}
+
+.card-body{
+  @include textStyle(1em, 200, $font, #000);
+}
+
+.card-title{
+  @include textStyle(1.5em, 700, $font, $spaceLightBlue);
+}
+
+.narrow {
+  width: 75%;
+  margin: 1.5rem auto;
+}
+
+.heading {
+  @include textStyle(2.5em, 800, $font, $spaceLightBlue);
+}
+
+/*-- About Section */
+
+
+.m-auto {
+  margin: auto;
+}
+
+.mx-about p {
+  @include textStyle(1em, 200, $font, #000);
+  padding: 0 7em;
+}
+
+.about-section {
+  width: 100%;
+  height: 100vh;
+}
+
+.about-img {
+  height: 100%;
+  width: 100%;
+}
+
+.text-section {
+  width: 100%;
+  height: 100%;
+}
+
+/*-- Subscribe Section */
+
+.subscribe-section {
+  height: 100vh;
+}
+
+.text-2{
+  @include textStyle(1.5em, 800, $font, $spaceLightBlue);
+}
+
+/*-- Footer Section */
+
+footer {
+  height: 20vh;
+  width: 100%;
+}
+
+footer a {
+  margin: auto;
+}
+
+footer .container {
+  height: 100%;
+  width: 100%;
+}
+
+
+/* Media queries */
+@media only screen and (max-width: 768px) {
+  /*-- landing Section */
+  .caption h1 {
+    font-size: 4em;
+    font-weight: 500;
+  }
+
+  .caption h3 {
+    font-size: 1.2em;
+    font-weight: 500;
+  }
+
+  /*-- About Section */
+
+  .mx-about p {
+    font-size: 0.6em;
+  }
+
+  .col-md-6 {
+    max-height: 50%;
+  }
+
+  /*--Features Section */
+  .card {
+    margin-bottom: 2%;
+  }
+
+  /*--Nav  Section */
+  .nav-link{
+    cursor: pointer !important;
+  }
+
+  .nav-outline {
+    border: none;
+  }
+}
